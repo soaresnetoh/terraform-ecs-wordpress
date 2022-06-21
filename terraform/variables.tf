@@ -53,12 +53,12 @@ variable "amis" {
 
 variable "instance_type" {
   description = "EC2 instance type"
-  default = "t2.micro"
+  default     = "t2.micro"
 }
 
 variable "db_instance_type" {
   description = "RDS instance type"
-  default = "db.t2.micro"
+  default     = "db.t2.micro"
 }
 
 variable "key_name" {
@@ -67,35 +67,35 @@ variable "key_name" {
 
 variable "db_name" {
   description = "RDS DB name"
-  default = "wordpressdb"
+  default     = "wordpressdb"
 }
 
 variable "db_user" {
   description = "RDS DB username"
-  default = "ecs"
+  default     = "ecs"
 }
 
 variable "db_password" {
   description = "RDS DB password"
-  default = "Qwerty12345-"
+  default     = "Qwerty12345-"
 }
 
 variable "wp_title" {
   description = "Wordpress title"
-  default = "My Wordpress on ECS"
+  default     = "My Wordpress on ECS"
 }
 
 variable "wp_user" {
   description = "Wordpress username"
-  default = "admin"
+  default     = "admin"
 }
 
 variable "wp_password" {
   description = "Wordpress password"
-  default = "Qwerty12345-"
+  default     = "Qwerty12345-"
 }
 
 variable "wp_mail" {
   description = "Wordpress email"
-  default = "joan.fuster@gmail.com"
+  default     = "joan.fuster@gmail.com"
 }
